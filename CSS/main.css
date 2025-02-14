@@ -9,7 +9,7 @@ header {
     align-items: center;
     gap:20px;
     padding: 20px;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: #2c6e49;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    
 }
@@ -68,9 +68,83 @@ a:hover {
 
 
 
+/* what do we provide    ke niche waale ka code  */
 
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 40px 5%;
+}
 
+.hero.reverse {
+    flex-direction: row-reverse;
+    background-color: #f9f9f9;
+}
 
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #2c6e49;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 15px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2c6e49;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #21583b;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .hero.reverse {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+    }
+}
 
 
 
@@ -99,8 +173,8 @@ a:hover {
 
 
 
-/* Styling for the About us section  */
-.about-section {
+ /* Styling for the About us section  */
+/* .about-section {
     background-color: #fff;
     padding: 50px;
     text-align: center;
@@ -156,6 +230,89 @@ a:hover {
     color: #555;
     font-size: 14px;
     line-height: 1.5;
+}  */
+
+
+
+
+.offerings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 40px 5%;
+}
+
+.offerings-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.offerings-content {
+    max-width: 50%;
+}
+
+.offerings-content h2 {
+    font-size: 2.5rem;
+    color: #2c6e49;
+}
+
+.offerings-content p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 15px 0;
+}
+
+/* Styled Links */
+.offerings-links {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.offerings-links li {
+    margin: 10px 0;
+}
+
+.offerings-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #2c6e49;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e8f5e9;
+}
+
+.offerings-links a i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.offerings-links a:hover {
+    background-color: #c8e6c9;
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .offerings {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .offerings-content {
+        max-width: 100%;
+        margin-top: 20px;
+    }
 }
 
 
@@ -193,7 +350,7 @@ a:hover {
 
 /* Footer Styling */
 footer {
-    background-color: #222;
+    background-color: #c8e6c9;
     color: white;
     text-align: center;
     padding: 20px 10px;
@@ -213,7 +370,9 @@ footer {
     font-size: 14px;
     color: #bbb;
 }
-
+.cards{
+    margin-top: 30px;
+}
 
 #hero-page{
     height: 75vh;
@@ -226,4 +385,4 @@ footer {
 
 
 
-/* code for the image slider  */
+
